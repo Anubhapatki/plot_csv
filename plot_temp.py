@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import mpld3
 
-data = pandas.read_csv('/Users/Anubha.Vijay/Downloads/Sensorlogs_latest.txt',
+data = pandas.read_csv('/Downloads/Sensorlogs_latest.txt',
                        names=['Time', 'timestamp2','devicename', 'attr1','attr2', 'attr3', 'attr4', 'attr5'],
                        header=None)
 
